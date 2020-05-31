@@ -1,0 +1,118 @@
+body{
+    display: grid;
+    justify-items: center;
+    background: #7DA2A9;
+}
+.account{
+    font-size: 50px;
+    color: #f7f7f7;
+    display: none;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+}
+.sign-btn{
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    background: rgb(26, 128, 151);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.register{
+    display: block;
+}
+.login{
+    display: none;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: 360px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    border: solid;
+    padding: 30px;
+    margin-top: 50px;
+    background: #f7f7f7;
+    color: #8d8585;
+    box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+}
+.form-group{
+    display: grid;
+    grid-template-columns: 360px;
+    grid-row-gap: 15px;
+}
+.form-group input{
+    height: 30px;
+    padding: 5px;
+}
+.form-name{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background: rgb(26, 128, 151);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+}
+.btn:hover{
+    background: rgb(20, 101, 119);
+}
+.form-title{
+    text-align: center;
+}
+.form-title h1{
+    color: rgb(112, 111, 111);
+}
+a{
+    text-decoration: none;
+    color: rgb(26, 128, 151);
+}
+.form-group label{
+    color: rgb(85, 83, 83);
+}
+.sign-in{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+.butn{
+    border: none;
+    background: none;
+    color: rgb(63, 60, 60);
+    font-size: 16px;
+}
+.butn:hover{
+    text-decoration-line: underline;
+}
+.toggler{
+    position: relative;
+    transform: translate(90%,-45px);
+    cursor: pointer;
+}
+
+.confirm-pwd{
+    margin-top: -33px;
+}
+
+.error{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: red;
+}
+.success{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: green;
+}

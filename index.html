@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-register</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="register">
+        <form class="form-container">
+            <div class="form-title">
+                <h1>Register</h1>
+                <p>Create your account. It's free and only takes a minute.</p>
+            </div>
+            <div class="form-group">
+                <div class="form-name">
+                    <input type="text" placeholder="First Name" id="first-name">
+                    <input type="text" placeholder="Last Name" id="last-name">     
+                </div>
+                <input type="text" name="email" placeholder="Email" id="email-register">
+                <input type="password" placeholder="password" class="password" id="pwd-register">
+                <span class="toggler"><i class="fas fa-eye"></i></span>
+                <input type="password" placeholder="Confirm Password" class="confirm-pwd" id="confirm-pwd">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" id="form-check-input" required>
+                <label for="form-check-input">I accept the <a href="#">Terms of USA</a> & <a href="#">Privacy Policy</a></label>
+            </div>
+            <button type="submit" class="btn">Register Now</button>
+        </form>
+        <div class="sign-in">Already have an account?<input type="button" class="butn btn-login" value="Sign In"></div>
+    </div>
+    <div class="login">
+        <form class="form-container">
+            <div class="form-title">
+                <h1>Login</h1>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <small id="emailHelp" class="form-text-small">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password</label>
+                <input type="password" name="pswd" id="pwd" class="password" placeholder="Password" required>
+                <span class="toggler"><i class="fas fa-eye"></i></span>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <div class="sign-in">Don't have account?<input type="button" class="butn btn-register" value="Sign Up"></div>
+    </div>
+    <div class="account">
+        <h1>Welcome to your account!!!</h1>
+        <div class="btn-group">
+            <button class="sign-btn in">Sign In</button>
+            <button class="sign-btn up">Sign Up</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="./data.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/c05700bcca.js" crossorigin="anonymous"></script>
+</body>
+</html>
